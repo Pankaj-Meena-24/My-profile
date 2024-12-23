@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Profile</title>
+  <style>
+    /* Overall background image */
+    body {
+      background-image: url('backgrong.jpg'); /* Set your image here */
+      background-size: cover; /* Ensures the image covers the entire page */
+      background-position: center; /* Centers the image */
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+      margin: 0;
+      color: white; /* Text color */
+    }
+
+    /* Profile photo (rounded circle) */
+    .profile-photo {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      border: 5px solid #136b8f;
+      margin-bottom: 20px;
+    }
+
+    /* Name styling */
+    .name {
+      font-size: 32px;
+      color: white;
+      font-weight: bold;
+      text-shadow: 2px 2px 4px #000000; /* Black stroke */
+    }
+
+    /* Info section */
+    .info {
+      background-color: rgba(19, 107, 143, 0.8); /* Translucent background with #136b8f color */
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 20px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Paragraphs inside the info section */
+    .info p {
+      font-size: 18px;
+      color: white;
+      text-shadow: 1px 1px 3px #000000; /* Black stroke */
+    }
+
+    /* Buttons (for links or actions) */
+    .btn {
+      background-color: #136b8f; /* Updated with #136b8f */
+      color: white;
+      padding: 12px 30px; /* Increased padding for a larger button */
+      border: 2px solid #0e4c59; /* Darker border for depth */
+      border-radius: 8px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 15px;
+      font-size: 18px;
+      text-transform: uppercase;
+      box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2); /* Adds depth */
+      transition: all 0.3s ease-in-out; /* Smooth transition */
+    }
+
+    .btn:hover {
+      background-color: #0e4c59; /* Darker shade for hover */
+      border-color: #136b8f; /* Changes border color on hover */
+      box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3); /* Increase shadow for more depth */
+      transform: translateY(-4px); /* Moves the button up for a 3D effect */
+    }
+
+    /* Social Media Icons */
+    .social-media {
+      margin-top: 30px;
+    }
+
+    .social-media a {
+      margin: 10px;
+      display: inline-block;
+    }
+
+    .social-media img {
+      width: 40px; /* Adjust the size of icons */
+      height: 40px;
+      transition: transform 0.3s;
+    }
+
+    .social-media a:hover img {
+      transform: scale(1.2); /* Icon zoom effect on hover */
+    }
+  </style>
+</head>
+<body>
+  <!-- Profile Picture at the top -->
+  <img src="pankaj.jpg" alt="My Profile Picture" class="profile-photo">
+
+  <!-- Name below the profile picture -->
+  <div class="name">Pankaj Meena</div>
+
+  <div class="info">
+    <p><strong>Company:</strong> Combined Logistics Solutions PVT Limited</p>
+    <p><strong>Job Role:</strong> DATA Analyst</p>
+    <p><strong>Email:</strong> pankaj.meena@example.com</p>
+    <p><strong>Phone:</strong> +91-1234567890</p>
+    <a href="mailto:pankaj.meena@example.com" class="btn">Contact Me</a>
+  </div>
+
+  <!-- Company Website Link -->
+  <div>
+    <p><strong>URL:</strong> <a href="https://combinedlog.com/" target="_blank" style="color: white; text-decoration: none; text-shadow: 1px 1px 3px #000000;">https://combinedlog.com/</a></p>
+  </div>
+
+  <!-- Social Media Icons -->
+  <div class="social-media">
+    <p><strong>Follow Us:</strong></p>
+    <a href="https://www.instagram.com/combinedlogisticssolutions/?igshid=YmMyMTA2M2Y%3D" target="_blank">
+      <img src="instagram.png" alt="Instagram">
+    </a>
+    <a href="https://m.facebook.com/Combinedlogistics.solutions/?ref=page_internal" target="_blank">
+      <img src="facebook.png" alt="Facebook">
+    </a>
+    <a href="https://www.youtube.com/@CombinedLogisticsSolutions" target="_blank">
+      <img src="youtube.png" alt="YouTube">
+    </a>
+    <a href="https://www.linkedin.com/company/combined-logistics-solutions-pvt-ltd" target="_blank">
+      <img src="linkedin.png" alt="LinkedIn">
+    </a>
+  </div>
+</body>
+</html>
